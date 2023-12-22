@@ -3778,8 +3778,7 @@ html:not(.lt-ie10) .not-animated {
 	display: none;
 }
 
-.tabs-corporate .nav-link:hover,
-.tabs-corporate .nav-link.active {
+.tabs-corporate .nav-link:not(.active):hover {
 	color: #ffffff;
 	background: transparent;
 }
